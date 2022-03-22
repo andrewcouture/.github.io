@@ -1,0 +1,50 @@
+body {
+    font-family:Verdana; 
+    background-color: #404240;
+    text-align:center;
+    border-style: solid;
+    border-color:#b7ec94;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 35pt;
+}
+
+h3 {
+    color: white;
+    font-size: 15pt;
+}
+
+p {
+    text-align: left;
+    padding: 5mm;
+    color: white;
+    font-size: 13pt;
+}
+
+form {
+    text-align: left;
+    padding: 5mm;
+    color: white;
+    font-size: 12pt;
+}
+
+input[type="radio"] {
+    margin-left: 25mm;
+    margin-right: 0;
+  }
+
+address {
+    color: white;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+a {
+    color: #b7ec94;
+}

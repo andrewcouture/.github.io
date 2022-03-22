@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Form</title>
+
+	<link rel="stylesheet" href="style.css" />
+    <link href ="https://fonts.googleapis.com/css?family=Work+Sans:300">
+    
+</head>
+
+<body>
+    
+    <header>
+        <a href="https://www.centennialcollege.ca/"><img src="images/banner.png" alt="banner" class="banner"></a>
+    </header>
+    
+    <h2>
+        Centennial College
+    </h2>
+    <h3>
+        Continuing Education Course / Instructor Evaluation
+    </h3>
+
+    <p>
+        Please read each statement and consider each one individually. Please fill in responses and the bubbles as required. 
+    </p>
+
+    <form action="">
+        <h3>Course Name/Code</h3>
+        <label for="coursecode">Course Code:</label>
+        <input type="text" id="coursecode" name="coursecode"><br><br>
+
+        <h3>Semester</h3>
+        <input type="radio" id="fall" name="semester" value="Fall">
+        <label for="Fall">Fall</label>
+        <input type="radio" id="winter" name="semester" value="Winter">
+        <label for="winter">Winter</label>
+        <input type="radio" id="summerSpring" name="semester" value="SummerSpring">
+        <label for="summerSpring">Spring/Summer</label>
+        <label for="years">Years:</label>
+        <input type="number" id="years" name="years"><br><br>
+        <label for="Instructor">Instructor:</label>
+        <input type="text" id="instructor" name="instructor"><br><br>
+
+        <h3>Instructor</h3>
+        <h4>How would you rate your instructor's?</h4>
+
+        <h4>1. Knowledge of subject?</h5>
+        <input type="radio" id="excellent" name="knowledge" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="knowledge" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="knowledge" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="knowledge" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h4>2. Helpfulness?</h5>
+        <input type="radio" id="excellent" name="helpfulness" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="helpfulness" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="helpfulness" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="helpfulness" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h4>3. Courtesy and respect for all students?</h5>
+        <input type="radio" id="excellent" name="respect" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="respect" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="respect" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="respect" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h4>4. Communication skills?</h5>
+        <input type="radio" id="excellent" name="communicationSkills" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="communicationSkills" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="communicationSkills" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="communicationSkills" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+        
+        <h4>5. Overall preformance?</h5>
+        <input type="radio" id="excellent" name="preformance" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="preformance" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="preformance" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="preformance" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h3>Course</h3>
+
+        <h4>6. How would you rate the course materials?</h5>
+        <input type="radio" id="excellent" name="courseMaterials" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="courseMaterials" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="courseMaterials" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="preformcourseMaterialsance" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h4>7. How much did the course meet your expectations?</h5>
+        <input type="radio" id="excellent" name="courseExpectations" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="courseExpectations" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="courseExpectations" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="courseExpectations" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+
+        <h4>8. How would you rate the course (overall)?</h5>
+        <input type="radio" id="excellent" name="courseRating" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="good" name="courseRating" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="fair" name="courseRating" value="Fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="courseRating" value="NotSatisfactory">
+        <label for="notSatisfactory">Not Satisfactory</label>
+        
+        <h3>General Information</h3>
+
+        <h4>9. Was the course outline reviewed/explained at the beginning of your course?</h5>
+        <input type="radio" id="yes" name="courseOutline" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="courseOutline" value="No">
+        <label for="no">Good</label>
+        <input type="radio" id="notSure" name="courseOutline" value="NotSure">
+        <label for="notSure">Not Sure</label>
+        
+        <h4>10. Would you recommend this course to a friend with your same interests?</h5>
+        <input type="radio" id="yes" name="courseOutline" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="courseOutline" value="No">
+        <label for="no">Good</label>
+        <input type="radio" id="notSure" name="courseOutline" value="NotSure">
+        <label for="notSure">Not Sure</label>
+
+        <h3>Any Other Comments</h3>
+
+        <label for="bestOfCourse">11. What is the best thing about this course?</label>
+        <input type="text" id="bestOfCourse" name="bestOfCourse"><br><br>
+        <label for="improvements">12. How could we improve this course?</label>
+        <input type="text" id="improvements" name="improvements"><br><br>
+        <label for="otherComments">13. Other:</label>
+        <input type="text" id="otherComments" name="otherComments"><br><br>
+
+
+
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        
+      </form>
+
+    <address>
+        Thank you! We pay attention to your feedback! <br>
+        Web:<a href="https://secure.centennialcollege.ca/webreg/help.do"> https://secure.centennialcollege.ca/webreg/help.do</a>   
+           Email: <a href="continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>.<br>
+    </address>
+
+    <br>
+
+</body>
+
+</html>
