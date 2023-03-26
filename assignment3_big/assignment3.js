@@ -46,7 +46,7 @@ function clicked(e) {
     var x = e.clientX;
     var y = e.clientY;
 
-    if (x > bug.x && x < bug.x + 10 && y > bug.y && y < bug,y + 10) {
+    if (x > bug.x && x < bug.x + 35 && y > bug.y && y < bug.y + 205) {
         score += 100;
         resetLocation();
 
