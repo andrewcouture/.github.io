@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("pictures/repeating.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #FF4081;
+}
+
+h2 {
+  color: #FF4081;
+  padding-left: 27rem;
+}
+
+p {
+  color: #FF4081;
+  font-size: 17px;
+}
+
+img {
+  width: 50px;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  margin: auto;
+  max-width: 70%;
+  max-height: 90%;
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 6px;
+  box-shadow: 
+    0 2px 1px 0 rgba(255, 255, 255, 0.4) inset,
+    0 6px 15px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /* Enable scrolling if content exceeds panel size */
+}
+
+.panel::before,
+.panel::after {
+  content: "";
+  position: absolute;
+  width: 42px;
+  height: 100%;
+  top: -10px;
+  right: 50px;
+  transform: rotate(50deg);
+  transform-origin: top center;
+  filter: blur(5px);
+}
+
+.panel::after {
+  right: -20px;
+  width: 20px;
+}
